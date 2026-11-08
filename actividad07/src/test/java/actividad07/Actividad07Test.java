@@ -1,4 +1,3 @@
-
 package actividad07;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -12,8 +11,7 @@ public class Actividad07Test {
 
     @Test
     void pruebaSalidaEsperada() throws Exception {
-        assertEquals("Hola
-Adiós", ejecutarMain().trim());
+        assertEquals("Hola\nAdiós", ejecutarMain());
     }
 
     private String ejecutarMain() throws Exception {
@@ -25,6 +23,18 @@ Adiós", ejecutarMain().trim());
         } finally {
             System.setOut(original);
         }
-        return buffer.toString().replace("\r\n", "\n");
+        return normalizar(buffer.toString("UTF-8"));
+    }
+
+    private String normalizar(String salida) {
+        String[] lineas = salida.replace("\r\n", "\n").replace('\r', '\n').split("\n", -1);
+        StringBuilder resultado = new StringBuilder();
+        for (int i = 0; i < lineas.length; i++) {
+            if (i > 0) {
+                resultado.append('\n');
+            }
+            resultado.append(lineas[i].strip());
+        }
+        return resultado.toString().strip();
     }
 }

@@ -1,4 +1,3 @@
-
 # Actividad 19
 
 Crear String ciudad = "Madrid"; y mostrarla por pantalla.

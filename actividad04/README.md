@@ -1,4 +1,3 @@
-
 # Actividad 04
 
 Corregir un programa con llaves desbalanceadas.

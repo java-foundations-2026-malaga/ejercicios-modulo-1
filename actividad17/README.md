@@ -1,4 +1,3 @@
-
 # Actividad 17
 
 Explicar que una línea comentada no se ejecuta.

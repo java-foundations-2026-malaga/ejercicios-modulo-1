@@ -1,4 +1,3 @@
-
 # Actividad 07
 
 Crear un programa que imprima Hola y Adiós.

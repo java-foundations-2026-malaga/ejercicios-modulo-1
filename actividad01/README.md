@@ -1,4 +1,3 @@
-
 # Actividad 01
 
 Corregir un programa que falta un punto y coma.

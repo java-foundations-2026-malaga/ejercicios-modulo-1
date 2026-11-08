@@ -1,4 +1,3 @@
-
 # Actividad 16
 
 Introducir comentarios de una línea.

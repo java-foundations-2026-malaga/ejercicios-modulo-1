@@ -1,7 +1,6 @@
-
 # Actividad 15
 
-Crear un programa que imprima Nombre: Ana, Ciudad: Madrid, Edad: 20.
+Crear un programa que imprima Nombre: Ana, Ciudad: Madrid y Edad: 20 en líneas separadas.
 
 ## Objetivo
 

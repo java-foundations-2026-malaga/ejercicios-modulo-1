@@ -1,4 +1,3 @@
-
 # Actividad 02
 
 Corregir println mal escrito.

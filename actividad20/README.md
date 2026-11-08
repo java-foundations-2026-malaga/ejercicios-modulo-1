@@ -1,4 +1,3 @@
-
 # Actividad 20
 
 Introducir concatenación con +.

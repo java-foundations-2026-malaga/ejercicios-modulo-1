@@ -1,7 +1,6 @@
-
 # Actividad 09
 
-Crear un programa que imprima 1 2 3.
+Crear un programa que imprima 1, 2 y 3 en líneas separadas.
 
 ## Objetivo
 

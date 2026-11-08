@@ -1,4 +1,3 @@
-
 # Actividad 11
 
 Crear un programa que imprima Hola mundo.

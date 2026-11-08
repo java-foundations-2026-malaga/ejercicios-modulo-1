@@ -1,7 +1,6 @@
-
 # Actividad 08
 
-Crear un programa que imprima Java Foundations Oracle.
+Crear un programa que imprima Java, Foundations y Oracle en líneas separadas.
 
 ## Objetivo
 

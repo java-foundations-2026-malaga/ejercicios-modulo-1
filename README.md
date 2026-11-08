@@ -7,24 +7,6 @@ Esta colección contiene 20 actividades autocorregibles diseñadas para alumnos 
 
 - Cada actividad es un proyecto Maven independiente.
 - Cada proyecto contiene código base, tests JUnit 5 y un workflow de GitHub Actions.
-- El nombre de los repositorios debe seguir la convención:
-  - `actividad01-nombre-apellido`
-  - `actividad02-nombre-apellido`
-- La organización de GitHub recomendada es `java-foundations-2026`.
-
-## Cómo usar esto en la organización de GitHub
-
-1. Crea la organización `java-foundations-2026`.
-2. Crea un repositorio de plantilla para cada actividad a partir del contenido de los directorios `actividad01` ... `actividad20`.
-3. Pide a cada alumno que cree su repositorio a partir de la plantilla correspondiente.
-4. Cada alumno debe clonar su repositorio, abrirlo en Eclipse, corregir el código y hacer `git push`.
-5. GitHub Actions ejecutará los tests automáticamente y mostrará aprobado / suspenso.
-
-## Convenciones de nombres
-
-- Repositorio de alumno: `actividadNN-nombre-apellido`
-- Ejemplo: `actividad01-juan-perez`, `actividad15-maria-garcia`
-- Cada repositorio debe contener el mismo contenido que el directorio `actividadNN`.
 
 ## Instalación
 
@@ -62,15 +44,33 @@ Esta colección contiene 20 actividades autocorregibles diseñadas para alumnos 
 
 ## Interpretar GitHub Actions
 
-1. En GitHub, entra en el repositorio del alumno.
+1. En GitHub, entra en el repositorio.
 2. Ve a la pestaña `Actions`.
-3. Selecciona el flujo de trabajo `Java CI`.
+3. Selecciona el flujo de trabajo `Autocorrección` y la ejecución de tu rama.
 4. Si el workflow pasa, el ejercicio está aprobado.
 5. Si falla, revisa los tests y el mensaje de error.
 
 ## Ejemplo de flujo de trabajo para el profesor
 
-- Revisa los repositorios de la organización `java-foundations-2026`.
-- En la pestaña `Actions`, cada repositorio muestra la última ejecución.
+- Revisa los repositorios de la organización `java-foundations-2026-malaga`.
+- En la pestaña `Actions`, filtra por rama (`Branch`) para ver las entregas de cada alumno.
 - Un estado verde significa que el código pasó los tests.
 - Un estado rojo significa que el alumno debe corregir el ejercicio.
+
+## Cómo entregar las actividades
+
+La rama `main` está protegida: contiene los enunciados originales y no se puede modificar.
+Cada alumno trabaja en **su propia rama**, con su nombre.
+
+1. Clona el repositorio:
+   `git clone https://github.com/java-foundations-2026-malaga/REPOSITORIO.git`
+2. Crea tu rama con tu nombre y apellido, en minúsculas y sin tildes ni espacios (por ejemplo `juan-perez`):
+   `git checkout -b juan-perez`
+   (En Eclipse: botón derecho sobre el proyecto > `Team > Switch To > New Branch...`).
+3. Importa en Eclipse la carpeta `actividadNN` que vayas a hacer (`File > Import... > Maven > Existing Maven Projects`), resuélvela y comprueba los tests con `Run As > JUnit Test`.
+4. Haz commit y sube **tu rama**:
+   `git add .` → `git commit -m "Actividad NN"` → `git push -u origin juan-perez`
+   (En Eclipse: `Git Staging` > `Commit and Push...`).
+5. En la pestaña **Actions** del repositorio verás el resultado de la autocorrección de cada actividad que hayas modificado: ✅ aprobada o ❌ con los errores.
+
+Si al hacer push te aparece un error sobre `main`, es que estás en la rama equivocada: cambia a tu rama con `git checkout juan-perez`.

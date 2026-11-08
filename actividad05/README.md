@@ -1,4 +1,3 @@
-
 # Actividad 05
 
 Corregir el nombre de la clase pública en el archivo.

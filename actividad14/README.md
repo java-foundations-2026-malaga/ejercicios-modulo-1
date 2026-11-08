@@ -1,4 +1,3 @@
-
 # Actividad 14
 
 Crear un programa que imprima ---.

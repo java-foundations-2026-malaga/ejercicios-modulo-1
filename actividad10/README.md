@@ -1,4 +1,3 @@
-
 # Actividad 10
 
 Crear un programa que imprima Hola, línea en blanco, Mundo.

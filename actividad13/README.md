@@ -1,7 +1,6 @@
-
 # Actividad 13
 
-Crear un programa que imprima Línea 1, Línea 2, Línea 3.
+Crear un programa que imprima Línea 1, Línea 2 y Línea 3 en líneas separadas.
 
 ## Objetivo
 

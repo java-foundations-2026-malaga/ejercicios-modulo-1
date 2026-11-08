@@ -1,4 +1,3 @@
-
 # Actividad 06
 
 Crear un programa que imprima Hola.

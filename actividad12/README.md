@@ -1,4 +1,3 @@
-
 # Actividad 12
 
 Crear un programa que imprima Bienvenidos al curso de Java.
