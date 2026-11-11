@@ -5,6 +5,8 @@ public class Actividad20 {
         String nombre = "Laura";
         int edad = 22;
         // TODO: muestra "Nombre: " seguido de la variable nombre usando el operador +
+        System.out.println("Nombre: " + nombre);
         // TODO: muestra "Edad: " seguido de la variable edad usando el operador +
+        System.out.println("Edad: " + edad);
     }
 }

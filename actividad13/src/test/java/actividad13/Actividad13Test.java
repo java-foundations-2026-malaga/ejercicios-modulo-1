@@ -11,7 +11,7 @@ public class Actividad13Test {
 
     @Test
     void pruebaSalidaEsperada() throws Exception {
-        assertEquals("Línea 1\nLínea 2\nLínea 3", ejecutarMain());
+        assertEquals("Linea 1\nLinea 2\nLinea 3", ejecutarMain());
     }
 
     private String ejecutarMain() throws Exception {
