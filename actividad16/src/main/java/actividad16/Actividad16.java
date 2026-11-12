@@ -2,9 +2,10 @@ package actividad16;
 
 public class Actividad16 {
     public static void main(String[] args) {
-        // TODO: añade un comentario sobre la siguiente línea
+      // Mostramos el saludo inicial
         System.out.println("Hola");
-        // TODO: añade otro comentario sobre la siguiente línea
+
+        // Mostramos el mensaje de despedida
         System.out.println("Adiós");
     }
 }
