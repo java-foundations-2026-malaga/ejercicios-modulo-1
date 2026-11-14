@@ -6,12 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="actividad02" />
-        <module name="actividad01" />
+        <module name="actividad09" />
+        <module name="actividad08" />
+        <module name="actividad19" />
+        <module name="actividad07" />
+        <module name="actividad18" />
         <module name="actividad06" />
+        <module name="actividad17" />
         <module name="actividad05" />
+        <module name="actividad16" />
         <module name="actividad04" />
+        <module name="actividad15" />
         <module name="actividad03" />
+        <module name="actividad14" />
+        <module name="actividad02" />
+        <module name="actividad13" />
+        <module name="actividad01" />
+        <module name="actividad12" />
+        <module name="actividad11" />
+        <module name="actividad10" />
+        <module name="actividad20" />
       </profile>
     </annotationProcessing>
   </component>
